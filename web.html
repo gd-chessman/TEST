@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Kho mẫu Website</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./frontend/assets/css/style.css">
+    <link rel="stylesheet" href="./frontend/assets/css/web.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./frontend/assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./frontend/assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./frontend/assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./frontend/assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./frontend/assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./frontend/assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./frontend/assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./frontend/assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./frontend/assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./frontend/assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./frontend/assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- // -->
+
+    <!-- Script -->
+    <script src="./frontend/assets/js/main.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Make Header -->
+        <header id="header"></header>
+        <script>
+            load("#header", "./frontend/templates/header.html");
+        </script>
+        <!-- Make Slider -->
+        <div id="slider-banner-item">
+            <img src="./frontend/assets/img/slideshow/slider1.gif" alt="">
+        </div>
+        <!-- Make Main -->
+        <main id="main">
+            <div class="filter-total">
+                <div class="filter all">
+                    Bộ lọc <img src="./frontend/assets/icons/filter.png" alt="">
+                </div>
+                <select name="" id="" class="filter-sort all">
+                  <option value="">Xếp theo</option>
+                  <option value="">Lượt xem</option>
+                  <option value="">Lượt tim</option>
+                  <!-- <option value="">Giá thấp đến cao</option>
+                  <option value="">Giá cao đến thấp</option> -->
+                </select>
+                <select name="" id="" class="select-field all">
+                  <option value="">Lĩnh vực</option>
+                  <!-- <option value="">Công nghệ - Kỹ thuật số</option>
+                  <option value="">Thời trang - Trang sức</option>
+                  <option value="">Giáo dục</option>
+                  <option value="">Khách sạn - Du lịch</option>
+                  <option value="">Thực phẩm</option>
+                  <option value="">Sách - Văn phòng phẩm</option>
+                  <option value="">Phương tiện giao thông</option>
+                  <option value="">Thể thao</option>
+                  <option value="">Mỹ phẩm - Làm đẹp</option>
+                  <option value="">Đồ gia dụng - Sinh hoạt</option>
+                  <option value="">Thuốc - Sức khỏe</option>
+                  <option value="">Lĩnh vực khác</option> -->
+                </select>
+                <select name="" id="" class="filter-type all">
+                  <option value="">Loại</option>
+                  <option value="">Front-end</option>
+                  <option value="">Back-end</option>
+                  <option value="">Full-stack</option>
+                </select>
+                <select name="" id="" class="filter-language all">
+                  <option value="">Ngôn ngữ</option>
+                  <option value="">Java</option>
+                  <option value="">C++</option>
+                  <option value="">Python</option>
+                </select>
+            </div>
+            <div class="field">
+                <ul>
+                    <li>Công nghệ - Kỹ thuật số</li>
+                    <li>Thời trang - Trang sức</li>
+                    <li>Giáo dục</li>
+                    <li>Khách sạn - Du lịch</li>
+                    <li>Thực phẩm</li>
+                    <li>Sách - Văn phòng phẩm</li>
+                    <li>Phương tiện giao thông</li>
+                    <li>Thể thao</li>
+                    <li>Mỹ phẩm - Làm đẹp</li>
+                    <li>Đồ gia dụng - Sinh hoạt</li>
+                    <li>Thuốc - Sức khỏe</li>
+                    <li>Lĩnh vực khác</li>
+                </ul>
+            </div>
+            <div class="clear-fix">
+
+            </div>
+            <div class="product-box-all">
+                <!-------------------Danh sách mẫu-------------->
+                <h4 style="margin-left: 5px;">99 mẫu Website sẵn có</h4>
+                <div class="product-list">
+                    <div class="product">                
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item8.jpg" alt=""> 
+                        <h4 class="name-product">Mẫu 1</h4>
+                        <strong class="price-product">$1 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>              
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item9.jpg" alt="">
+                        <h4 class="name-product">Mẫu 2</h4>
+                        <strong class="price-product">$2 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/like.png" alt=""></i>
+                    </div>
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item10.jpg" alt="">
+                        <h4 class="name-product">Mẫu 3</h4>
+                        <strong class="price-product">$3 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item11.jpg" alt="">
+                        <h4 class="name-product">Mẫu 4</h4>
+                        <strong class="price-product">$3 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item12.jpg" alt="">
+                        <h4 class="name-product">Mẫu 5</h4>
+                        <strong class="price-product">$5 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>
+                    <div class="product">                
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item8.jpg" alt="">
+                        <h4 class="name-product">Mẫu 1</h4>
+                        <strong class="price-product">$1 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>              
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item9.jpg" alt="">
+                        <h4 class="name-product">Mẫu 2</h4>
+                        <strong class="price-product">$2 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/like.png" alt=""></i>
+                    </div>
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item10.jpg" alt="">
+                        <h4 class="name-product">Mẫu 3</h4>
+                        <strong class="price-product">$3 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item11.jpg" alt="">
+                        <h4 class="name-product">Mẫu 4</h4>
+                        <strong class="price-product">$3 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item12.jpg" alt="">
+                        <h4 class="name-product">Mẫu 5</h4>
+                        <strong class="price-product">$5 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>
+                    <div class="product">                
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item8.jpg" alt="">
+                        <h4 class="name-product">Mẫu 1</h4>
+                        <strong class="price-product">$1 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>              
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item9.jpg" alt="">
+                        <h4 class="name-product">Mẫu 2</h4>
+                        <strong class="price-product">$2 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/like.png" alt=""></i>
+                    </div>
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item10.jpg" alt="">
+                        <h4 class="name-product">Mẫu 3</h4>
+                        <strong class="price-product">$3 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item11.jpg" alt="">
+                        <h4 class="name-product">Mẫu 4</h4>
+                        <strong class="price-product">$3 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>
+                    <div class="product">
+                      <a href="product-details.html"><img src="./frontend/assets/img/product/item12.jpg" alt="">
+                        <h4 class="name-product">Mẫu 5</h4>
+                        <strong class="price-product">$5 USD</strong>
+                      </a>
+                        <i class="ri-love-line"><img src="./frontend/assets/icons/love.png" alt=""></i>
+                    </div>
+                </div>
+            </div>
+            <scroll-top>
+                <a href="#"><i class="btn-top"><span class="scroll"></span></i></a>         
+            </scroll-top>
+        </main>
+
+        <!-- Make Footer -->
+        <footer id="footer">
+            <script>
+                load("#footer", "./frontend/templates/footer.html");
+            </script>
+        </footer>
+    </div>
+</body>
+</html>
