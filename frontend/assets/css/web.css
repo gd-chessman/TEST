@@ -119,6 +119,7 @@ i.ri-love-line{
     padding: 10px;
     cursor: pointer;
     z-index: 200;
+    border-radius: 30px;
 }
 .show-scroll {
     display: block;
