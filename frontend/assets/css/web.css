@@ -111,17 +111,6 @@ i.ri-love-line{
     height: auto;
 }
 
-/*----------------------------------------- CSS cho phần keyframes---------------------------- */
-@keyframes scroll_4013 {
-0% {
-    transform: translateY(40%);
-}
-
-50% {
-    transform: translateY(90%);
-}
-}
-
 /* -----------------------------------------Responsive-------------------------------------- */
 @media screen {
     

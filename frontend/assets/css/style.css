@@ -447,6 +447,16 @@ html{
     height: 10px;
   }
 }
+/*----------------------------------------- CSS cho phần keyframes---------------------------- */
+@keyframes scroll_4013 {
+  0% {
+    transform: translateY(40%);
+  }
+
+  50% {
+    transform: translateY(90%);
+  }
+}
 /* Màn hình Mobile cực nhỏ */
 @media screen and (max-width : 320px){
     .header-main ul li a{
