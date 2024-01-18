@@ -436,6 +436,16 @@ html{
   #main{
     margin: 0 1vw;
   }
+  .btn-top{
+    width: 25px;
+    height: 40px;
+    bottom: 0.5rem;
+    right: 1rem;
+  }
+  .scroll{
+    width: 6px;
+    height: 10px;
+  }
 }
 /* Màn hình Mobile cực nhỏ */
 @media screen and (max-width : 320px){
