@@ -111,6 +111,18 @@ i.ri-love-line{
     height: auto;
 }
 /* Tạo nút scroll top */
+.scrollTop{
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 200;
+}
+.show-scroll {
+    display: block;
+}
 .btn-top {
     width: 30px;
     height: 47px;
@@ -122,10 +134,10 @@ i.ri-love-line{
     border: none;
     outline: 2px solid yellowgreen;
     box-shadow: 0px 0px 10px yellowgreen;
-    position: fixed;
-    right: 1.5rem;
-    bottom: 1rem;
-    z-index: 200;
+    /*position: fixed;*/
+    /*right: 1.5rem;*/
+    /*bottom: 1rem;*/
+    /*z-index: 200;*/
 }   
 .scroll {
     width: 7px;
@@ -145,7 +157,7 @@ i.ri-love-line{
 50% {
     transform: translateY(90%);
 }
-};
+}
 
 /* -----------------------------------------Responsive-------------------------------------- */
 @media screen {
