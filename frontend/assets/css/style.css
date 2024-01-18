@@ -316,6 +316,45 @@ html{
   background-color: #e5e7eb;
 }
 
+
+/* Tạo nút scroll top */
+.scrollTop{
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 200;
+  border-radius: 30px;
+}
+.show-scroll {
+  display: block;
+}
+.btn-top {
+  width: 30px;
+  height: 47px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  border: none;
+  outline: 2px solid yellowgreen;
+  box-shadow: 0px 0px 10px yellowgreen;
+  /*position: fixed;*/
+  /*right: 1.5rem;*/
+  /*bottom: 1rem;*/
+  /*z-index: 200;*/
+}
+.scroll {
+  width: 7px;
+  height: 12px;
+  border-radius: 10px;
+  background-color: yellow;
+  box-shadow: 0px 0px 10px white;
+  animation: scroll_4013 0.5s linear infinite;
+  transform: translateY(40%);
+}
 /* ------------------------------------------Responsive -------------------------------------------*/
 /* @media screen {  */
   /* Được dùng khi không ăn responsive */
