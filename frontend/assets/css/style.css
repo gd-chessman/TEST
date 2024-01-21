@@ -413,7 +413,7 @@ html{
 .menu-nav ul li{
   width: 24%;
   margin: 4px;
-  /* max-width: 120px; */
+  min-width: 100px;
 }
 .menu-nav ul li button{
   width: 100%;
