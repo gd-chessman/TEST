@@ -420,7 +420,17 @@ html{
   border: 1px solid #888;
   color: black;
 }
-
+.menu-nav ul:last-child{
+  justify-content: space-between;
+}
+.user-account a{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.user-account a img{
+  margin-right: 8px;
+}
 /*----------------------------------------- CSS cho phần keyframes---------------------------- */
 @keyframes scroll_4013 {
   0% {
