@@ -28,7 +28,7 @@ function load(selector, path) {
             window.dispatchEvent(new Event("template-loaded"));
         });
 }
-
+// Xuất hiện nút cuộn
 window.addEventListener("scroll",()=>{
     const scrollTop = document.querySelector(".scrollTop");
     if (window.scrollY > 360){
