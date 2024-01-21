@@ -373,7 +373,7 @@ html{
 .modal-content {
   background-color: #fefefe;
   margin-left: auto;
-  padding: 10px 20px;
+  padding: 10px;
   border: 1px solid #888;
   width: 90%;
   height: 100%;
@@ -407,8 +407,8 @@ html{
   flex-wrap: wrap;
 }
 .menu-nav ul li{
-  width: 32%;
-  margin: 0.65%;
+  width: 24%;
+  margin: 0.5%;
   min-width: 75px;
 }
 .menu-nav ul li button{
